@@ -5,7 +5,6 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
 import com.itsjava.classe.Personne;
 
 public class Connexion {
@@ -39,3 +38,11 @@ public class Connexion {
         }
     }
 }
+
+
+
+
+
+
+
+
