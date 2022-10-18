@@ -6,7 +6,7 @@ pipeline {
                 sh 'cd ITSjavaPersonne && rm -r * .*'
                 git branch: 'main',
                     url: 'git@github.com:AurelienFavreBertin/ITSjavaPersonne.git'
-                echo "repo cloned"
+                echo "repo git cloned"
             }
         }
         stage('Build') {
