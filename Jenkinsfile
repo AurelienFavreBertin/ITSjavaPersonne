@@ -27,7 +27,7 @@ pipeline {
             steps {
                 sh '''
                 cd ITSjavaPersonne
-                mvn run
+                java -jar itsjavapersonne-0.1.jar
                 echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
                 '''
             }
